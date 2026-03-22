@@ -1,0 +1,99 @@
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : 22 March 2026 15:01:17
+   Source : c:\Users\SAI SANDEEP NAIDU\.gemini\antigravity\scratch\health-adviser\
+     Dest : D:\medical_advisor\
+
+    Files : *.*
+	    
+ Exc Dirs : node_modules
+	    .git
+	    .next
+	    
+  Options : *.* /TEE /S /E /DCOPY:DA /COPY:DAT /R:3 /W:5 
+
+------------------------------------------------------------------------------
+
+	                  14	c:\Users\SAI SANDEEP NAIDU\.gemini\antigravity\scratch\health-adviser\
+	    New File  		     428	.env100%  
+	    New File  		     253	.gitignore100%  
+	    New File  		    6036	build.log100%  
+	    New File  		     440	build_output.txt100%  
+	    New File  		       0	copy_log.txt100%  
+	    New File  		     616	eslint.config.js100%  
+	    New File  		     755	index.html100%  
+	    New File  		  213373	package-lock.json100%  
+	    New File  		    1080	package.json100%  
+	    New File  		    3670	README.md100%  
+	    New File  		     732	tsconfig.app.json100%  
+	    New File  		     119	tsconfig.json100%  
+	    New File  		     653	tsconfig.node.json100%  
+	    New File  		     238	vite.config.ts100%  
+	  New Dir          3	c:\Users\SAI SANDEEP NAIDU\.gemini\antigravity\scratch\health-adviser\dist\
+	    New File  		     210	favicon.svg100%  
+	    New File  		    5031	icons.svg100%  
+	    New File  		     853	index.html100%  
+	  New Dir          2	c:\Users\SAI SANDEEP NAIDU\.gemini\antigravity\scratch\health-adviser\dist\assets\
+	    New File  		   54134	index-5yo3vs3r.css100%  
+	    New File  		   1.0 m	index-BH9qjr1g.js 97%  100%  
+	  New Dir          2	c:\Users\SAI SANDEEP NAIDU\.gemini\antigravity\scratch\health-adviser\public\
+	    New File  		     210	favicon.svg100%  
+	    New File  		    5031	icons.svg100%  
+	  New Dir          4	c:\Users\SAI SANDEEP NAIDU\.gemini\antigravity\scratch\health-adviser\src\
+	    New File  		    2891	App.css100%  
+	    New File  		    4714	App.tsx100%  
+	    New File  		    3698	index.css100%  
+	    New File  		     236	main.tsx100%  
+	  New Dir          3	c:\Users\SAI SANDEEP NAIDU\.gemini\antigravity\scratch\health-adviser\src\assets\
+	    New File  		   44919	hero.png100%  
+	    New File  		    4126	react.svg100%  
+	    New File  		    8709	vite.svg100%  
+	  New Dir          0	c:\Users\SAI SANDEEP NAIDU\.gemini\antigravity\scratch\health-adviser\src\components\
+	  New Dir          3	c:\Users\SAI SANDEEP NAIDU\.gemini\antigravity\scratch\health-adviser\src\components\shared\
+	    New File  		     957	LoadingSpinner.tsx100%  
+	    New File  		    7366	Navbar.tsx100%  
+	    New File  		     793	ProtectedRoute.tsx100%  
+	  New Dir          1	c:\Users\SAI SANDEEP NAIDU\.gemini\antigravity\scratch\health-adviser\src\contexts\
+	    New File  		    2684	AuthContext.tsx100%  
+	  New Dir          3	c:\Users\SAI SANDEEP NAIDU\.gemini\antigravity\scratch\health-adviser\src\lib\
+	    New File  		     701	firebase.ts100%  
+	    New File  		     790	gemini.ts100%  
+	    New File  		     169	utils.ts100%  
+	  New Dir          1	c:\Users\SAI SANDEEP NAIDU\.gemini\antigravity\scratch\health-adviser\src\pages\
+	    New File  		    7936	LoginPage.tsx100%  
+	  New Dir          3	c:\Users\SAI SANDEEP NAIDU\.gemini\antigravity\scratch\health-adviser\src\pages\admin\
+	    New File  		    6167	AdminDashboard.tsx100%  
+	    New File  		   13332	MedicationsPage.tsx100%  
+	    New File  		    5276	RegisteredPatients.tsx100%  
+	  New Dir          6	c:\Users\SAI SANDEEP NAIDU\.gemini\antigravity\scratch\health-adviser\src\pages\doctor\
+	    New File  		    9408	AIAdvisor.tsx100%  
+	    New File  		    6850	ChatPage.tsx100%  
+	    New File  		    4581	DiseasePrediction.tsx100%  
+	    New File  		    6905	HealthWellbeing.tsx100%  
+	    New File  		    6564	PatientMonitoring.tsx100%  
+	    New File  		   14824	PatientReports.tsx100%  
+	  New Dir          5	c:\Users\SAI SANDEEP NAIDU\.gemini\antigravity\scratch\health-adviser\src\pages\patient\
+	    New File  		    9623	DoctorChatSelection.tsx100%  
+	    New File  		    7800	MedicationShop.tsx100%  
+	    New File  		    6108	OrdersPage.tsx100%  
+	    New File  		    8405	PatientDashboard.tsx100%  
+	    New File  		    7358	ReportsPage.tsx100%  
+	  New Dir          1	c:\Users\SAI SANDEEP NAIDU\.gemini\antigravity\scratch\health-adviser\src\types\
+	    New File  		    1035	index.ts100%  
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :        16        14         2         0         0         0
+   Files :        51        51         0         0         0         0
+   Bytes :    1.50 m    1.50 m         0         0         0         0
+   Times :   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+   Speed :           1,99,63,455 Bytes/sec.
+   Speed :             1,142.318 MegaBytes/min.
+   Ended : 22 March 2026 15:01:17
+
