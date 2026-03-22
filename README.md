@@ -1,63 +1,71 @@
 # 🏥 Health Adviser: Your Intelligent Healthcare Companion
 
-## 🌐 About the Project
-**Health Adviser** is a next-generation healthcare platform designed to bridge the gap between patients, medical professionals, and pharmacy services. By leveraging **Artificial Intelligence** and real-time data, it provides a seamless, secure, and intuitive environment for managing health.
-
-The mission of this project is to make specialized healthcare more accessible through an AI-powered triage system while providing doctors and admins the tools they need to deliver high-quality care efficiently.
-
----
-
-## 🚀 What Can You Do?
-
-### 👥 For Patients: "Your Health in Your Hands"
-- **AI Health Consultation**: Get instant, intelligent health insights and triage guidance powered by **Gemini 2.0 Flash AI**.
-- **Digital Pharmacy**: Directly browse available medications, check real-time stock, and place orders without waiting in line.
-- **Secure Records**: Instantly access your medical reports and prescriptions in a clean, easy-to-read format.
-
-### 👨‍⚕️ For Doctors: "Tools for Precision Medicine"
-- **AI-Enhanced Diagnostics**: Use AI-assisted observations to help provide more accurate assessments.
-- **Seamless Prescription Management**: Assign medications from the centralized inventory directly to patient records.
-- **Real-Time Patient Connection**: Secure, instant messaging to follow up with patients and answer questions.
-
-### 🛡️ For Administrators: "Efficient Operations"
-- **Smart Pharmacy Inventory**: Complete control over medication stock, pricing, and availability.
-- **Patient & Doctor Management**: An bird's-eye view of all system users to ensure smooth healthcare delivery.
-- **Detailed Audit Logs**: Track orders and pharmacy transactions for better resource planning.
+<div align="center">
+  <h3>Next-generation healthcare platform bridging patients, doctors, and pharmacy services.</h3>
+  <p> Powered by AI, designed for modern care.</p>
+</div>
 
 ---
 
-## ✨ Design Philosophy
-The website is built with a **Premium Glassmorphism** aesthetic. We use an emerald-green color palette to evoke a sense of health and calm, paired with a responsive design that feels alive and intuitive on any device.
+## 🌐 Overview
+**Health Adviser** is a robust web application that streamlines the medical journey. Whether you're a patient looking for quick advice, a doctor managing prescriptions, or an admin overseeing a pharmacy inventory, Health Adviser provides an intuitive, high-performance interface for all your needs.
+
+## ✨ Key Features
+
+### 🤵 For Patients
+- **🤖 AI-Powered Triage**: Instant health insights and preliminary advice powered by **Gemini 2.0 Flash**.
+- **💊 Online Pharmacy**: Browse medications and check stock levels in real-time.
+- **📄 Digital Records**: Access all your reports and prescriptions securely from anywhere.
+
+### 🩺 For Doctors
+- **🩺 Smart Diagnostics**: Leverage AI-assisted symptom analysis for more informed decision-making.
+- **📝 Easy Prescribing**: Quick-select medications from the pharmacy's real-time inventory.
+- **💬 Direct Communication**: Connect with your patients for follow-ups and inquiries.
+
+### 🛡️ For Administrators
+- **📦 Inventory Control**: Full suite of tools to manage medicine stocks, pricing, and availability.
+- **👥 User Management**: System-wide oversight of all doctors and patients to ensure smooth operations.
+- **📈 Insightful Auditing**: Track transactions and orders for better organizational planning.
 
 ---
 
-## 🛠️ Core Technology
-- **Intelligence**: Google Gemini 2.0 Flash
-- **Cloud Infrastructure**: Firebase (Auth, Firestore)
-- **Framework & Performance**: React 19, Vite, TypeScript
-- **Visuals**: Tailwind CSS v4, Lucide Icons
+## 🛠️ Project Stack
 
-### 2. Firebase Configuration
-1. Go to the [Firebase Console](https://console.firebase.google.com/).
-2. Create a project named **"Health Adviser"**.
-3. Enable **Authentication** (Google login).
-4. Enable **Cloud Firestore**.
-5. Register a **Web App** and copy the config object into your `.env`.
+| Technology | Purpose |
+| :--- | :--- |
+| **React 19** | Modern UI library for a responsive experience. |
+| **Vite** | Ultra-fast build tool and development server. |
+| **TypeScript** | Type-safe development for reliable code. |
+| **Tailwind CSS v4** | Utility-first styling with premium Glassmorphism design patterns. |
+| **Firebase** | Backend-as-a-service providing Authentication and Firestore. |
+| **Google Gemini 2.0 Flash** | Cutting-edge AI for intelligent consultations. |
 
-### 3. Setup Project
+---
+
+## 🚀 Getting Started
+
+Follow these steps to set up the project locally:
+
+### 1. Prerequisites
+- **Node.js**: (Current LTS recommended)
+- **NPM** or **Yarn**
+- A **Google Gemini API Key**
+- A **Firebase Project**
+
+### 2. Installation
 ```bash
 # Clone the repository
 git clone https://github.com/saisandeepnaidu-11/Medical_Advisor.git
 
+# Navigate to the project directory
+cd health-adviser
+
 # Install dependencies
 npm install
-
-# Start the development server
-npm run dev
 ```
 
-### 4. Environment Configuration
-Create a `.env` file in the root directory and add the following:
+### 3. Environment Variables
+Create a `.env` file in the root directory and add your credentials:
 ```env
 VITE_FIREBASE_API_KEY=your_key
 VITE_FIREBASE_AUTH_DOMAIN=your_project.firebaseapp.com
@@ -68,20 +76,32 @@ VITE_FIREBASE_APP_ID=your_app_id
 VITE_GEMINI_API_KEY=your_gemini_key
 ```
 
----
-
-## 🔒 Security Rules
-For production, ensure your Firestore rules are configured correctly to manage role-based access for patients, doctors, and admins as documented in the internal security guide.
+### 4. Running the App
+```bash
+npm run dev
+```
+The app will be available at `http://localhost:5173`.
 
 ---
 
 ## 📁 Project Structure
-- `/src/pages`: Role-based route components (Patient, Doctor, Admin).
-- `/src/components`: Shared UI components (Glassmorphism design).
-- `/src/contexts`: Auth and Global state management.
-- `/src/lib`: Configuration for Firebase and Gemini AI.
+```text
+/src
+├── /components   # Reusable UI components (buttons, modals, cards)
+├── /contexts     # Application state & Authentication logic
+├── /lib          # Configuration for Firebase and Google AI
+├── /pages        # Role-based pages (Patient, Doctor, Admin Dashboards)
+└── /types        # Centralized TypeScript interfaces
+```
 
 ---
 
+## 🔐 Security & Access
+The project uses role-based access control (RBAC). Ensure your Firestore security rules are configured to only allow authorized roles (e.g., Doctors can create prescriptions, but Patients can only view their own).
+
 ## 📄 License
-Distributed under the MIT License. See `LICENSE` for more information.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+<p align="center">Made with ❤️ for a Healthier World.</p>
