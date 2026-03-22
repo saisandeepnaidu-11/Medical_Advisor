@@ -1,43 +1,41 @@
-# 🏥 Health Adviser: AI-Powered Healthcare Platform
+# 🏥 Health Adviser: Your Intelligent Healthcare Companion
 
-An advanced, role-based healthcare management system featuring AI-driven medical insights, automated pharmacy inventory, and secure doctor-patient communication. Built using React, TypeScript, Vite, Tailwind CSS, Firebase, and Gemini AI.
+## 🌐 About the Project
+**Health Adviser** is a next-generation healthcare platform designed to bridge the gap between patients, medical professionals, and pharmacy services. By leveraging **Artificial Intelligence** and real-time data, it provides a seamless, secure, and intuitive environment for managing health.
 
----
-
-## 🌟 Key Features
-
-### 👤 Patient Portal
-- **AI Health Advisor**: Real-time triage and medical Q&A powered by **Gemini 2.0 Flash**.
-- **Pharmacy Access**: Browse the inventory, check stock availability, and place orders.
-- **Personal Health Records**: Access secure, markdown-rendered medical reports and summaries.
-
-### 👨‍⚕️ Doctor Dashboard
-- **Medication Prescriptions**: Assign medications to patients directly from the master inventory.
-- **Patient Insight**: View patient histories and AI-assisted health assessments.
-- **Secure Communication**: Real-time messaging with patients via Firestore.
-
-### 🛡 Admin System
-- **Inventory Control**: Add, edit, and track medications. Manage stock levels in real-time.
-- **User Management**: Overview of all registered patients and doctors.
-- **System Logs**: Track orders and pharmacy transactions.
+The mission of this project is to make specialized healthcare more accessible through an AI-powered triage system while providing doctors and admins the tools they need to deliver high-quality care efficiently.
 
 ---
 
-## 🛠 Tech Stack
+## 🚀 What Can You Do?
 
-- **Frontend**: React 19, TypeScript, **Vite**, **Tailwind CSS v4**
-- **Backend & Auth**: **Firebase** (Auth, Cloud Firestore)
-- **AI Core**: Google **Gemini 2.0 Flash** (via `@google/genai`)
-- **Icons & UI**: Lucide-React, Glassmorphism design system
+### 👥 For Patients: "Your Health in Your Hands"
+- **AI Health Consultation**: Get instant, intelligent health insights and triage guidance powered by **Gemini 2.0 Flash AI**.
+- **Digital Pharmacy**: Directly browse available medications, check real-time stock, and place orders without waiting in line.
+- **Secure Records**: Instantly access your medical reports and prescriptions in a clean, easy-to-read format.
+
+### 👨‍⚕️ For Doctors: "Tools for Precision Medicine"
+- **AI-Enhanced Diagnostics**: Use AI-assisted observations to help provide more accurate assessments.
+- **Seamless Prescription Management**: Assign medications from the centralized inventory directly to patient records.
+- **Real-Time Patient Connection**: Secure, instant messaging to follow up with patients and answer questions.
+
+### 🛡️ For Administrators: "Efficient Operations"
+- **Smart Pharmacy Inventory**: Complete control over medication stock, pricing, and availability.
+- **Patient & Doctor Management**: An bird's-eye view of all system users to ensure smooth healthcare delivery.
+- **Detailed Audit Logs**: Track orders and pharmacy transactions for better resource planning.
 
 ---
 
-## 🚀 Getting Started
+## ✨ Design Philosophy
+The website is built with a **Premium Glassmorphism** aesthetic. We use an emerald-green color palette to evoke a sense of health and calm, paired with a responsive design that feels alive and intuitive on any device.
 
-### 1. Prerequisites
-- Node.js (v18+)
-- A Firebase Project
-- A Google AI Studio API Key
+---
+
+## 🛠️ Core Technology
+- **Intelligence**: Google Gemini 2.0 Flash
+- **Cloud Infrastructure**: Firebase (Auth, Firestore)
+- **Framework & Performance**: React 19, Vite, TypeScript
+- **Visuals**: Tailwind CSS v4, Lucide Icons
 
 ### 2. Firebase Configuration
 1. Go to the [Firebase Console](https://console.firebase.google.com/).
